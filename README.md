@@ -4,7 +4,6 @@ This library is a light version of ZXing barcodescanner library. It supports onl
 ## 2. Screenshots
 
 ![ScreenShot](https://raw.githubusercontent.com/bhavitsengar/qrcodescanner-lib-android/master/barcodescanner/src/main/res/raw/Screenshot1.jpeg)
-
 ![ScreenShot](https://raw.githubusercontent.com/bhavitsengar/qrcodescanner-lib-android/master/barcodescanner/src/main/res/raw/Screenshot2.jpeg)
 
 #### 3. Usage
