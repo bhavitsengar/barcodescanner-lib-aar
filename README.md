@@ -3,7 +3,7 @@ This library is a light version of ZXing barcodescanner library. It supports onl
 ## 2. Screenshots
 iOS 7 (iPhone)
 
-![ScreenShot](https://raw.githubusercontent.com/bhavitsengar/qrcodescanner-lib-android/master/screenshots/screenshot1.png)
+![ScreenShot](https://raw.githubusercontent.com/bhavitsengar/qrcodescanner-lib-android/master/barcodescanner/src/main/res/raw/Screenshot1.jpeg)
 
 
 ### Steps to build a new .aar
