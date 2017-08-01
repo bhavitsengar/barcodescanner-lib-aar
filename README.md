@@ -2,9 +2,10 @@
 This library is a light version of ZXing barcodescanner library. It supports only QR code scan and takes very less space. It's new UI is specifically made to make it look like a QR code scanner.
 
 ## 2. Screenshots
-iOS 7 (iPhone)
 
 ![ScreenShot](https://raw.githubusercontent.com/bhavitsengar/qrcodescanner-lib-android/master/barcodescanner/src/main/res/raw/Screenshot1.jpeg)
+
+![ScreenShot](https://raw.githubusercontent.com/bhavitsengar/qrcodescanner-lib-android/master/barcodescanner/src/main/res/raw/Screenshot2.jpeg)
 
 
 ### Steps to build a new .aar
