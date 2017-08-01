@@ -239,7 +239,7 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
         }
 
         int leftOffset = (screenWidth - w) / 2;
-        int topOffset = ((screenHeight - h) / 2)-(h/9);
+        int topOffset = ((screenHeight - h) / 2)-(h/9) - dpToPixels(3);
 
         RelativeLayout.LayoutParams layoutParams = (RelativeLayout.LayoutParams)torchButton.getLayoutParams();
         layoutParams.setMargins(leftOffset, topOffset, 0, 0);
@@ -252,13 +252,25 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
 
         /************* Trying to put the prompt text below the bottom edge of ViewFinder ******************/
 
-        leftOffset = (screenWidth - w) / 2;
+        leftOffset = (screenWidth - w) / 2 ;
         topOffset = ((screenHeight - h) / 2)+h+dpToPixels(10); // 10 is like a top margin here, in dp.
         layoutParams = (RelativeLayout.LayoutParams)statusView.getLayoutParams();
         layoutParams.setMargins(leftOffset, topOffset, 0, 0);
 
 
         /************* Trying to put the prompt text below the bottom edge of ViewFinder ******************/
+
+        /************* Trying to put the flip button above the top-right corner of ViewFinder ******************/
+
+        leftOffset = ((screenWidth - w) / 2 + w) -((int)(h/10*1.5));
+        topOffset = ((screenHeight - h) / 2)-(h/9) - dpToPixels(2);
+
+        layoutParams = (RelativeLayout.LayoutParams)flipButton.getLayoutParams();
+        layoutParams.setMargins(leftOffset, topOffset, 0, 0);
+        layoutParams.height = h/10;
+        layoutParams.width = (int)(layoutParams.height*1.5);
+
+        /************* Trying to put the flip button above the top-right corner of ViewFinder ******************/
 
         handler = null;
         lastResult = null;

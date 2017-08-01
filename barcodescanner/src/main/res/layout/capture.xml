@@ -222,9 +222,7 @@
     <Button android:id="@+id/flip_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="top|start"
-            android:drawableLeft="@drawable/flip_camera"
-            android:drawableStart="@drawable/flip_camera"
+            android:background="@drawable/switch_camera"
             android:visibility="invisible"/>
 
     <ToggleButton android:id="@+id/torch_button"
