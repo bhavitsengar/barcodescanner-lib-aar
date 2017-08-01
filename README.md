@@ -1,5 +1,5 @@
 ## 1. Introduction
-This library is a light version of ZXing barcodescanner library. It supports only QR code scan and takes very less space. It's new UI is specifically made to make it look like a QR code scanner.
+This is an extension to ZXing library. I have modified the UI to suit QRCode Scan.
 
 ## 2. Screenshots
 
