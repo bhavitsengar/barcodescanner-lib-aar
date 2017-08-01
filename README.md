@@ -1,3 +1,7 @@
+This library is a light version of ZXing barcodescanner library. It supports only QR code scan and takes very less space. It's new UI is specifically made to make it look like QR code scanner.
+
+
+
 ### Steps to build a new .aar
  * Clone this repo
  * Open it in Android Studio
@@ -13,7 +17,3 @@
  * Run barcodescanner > Tasks > other > build
  * The (release) .aar will be generated in barcodescanner > build > outputs
  * Commit and push any changes made!
-
-###The generated .aar is used in:
-* [NativeScript BarcodeScanner Plugin](https://github.com/EddyVerbruggen/nativescript-barcodescanner/)
-* [Cordova BarcodeScanner Plugin](https://github.com/Telerik-Verified-Plugins/BarcodeScanner/)
